@@ -1,0 +1,21 @@
+Starta appen direkt från terminalen
+
+Man ska kunna ange personnummer i samband med att man 
+anropar applikationen från terminalen och 
+den ska då inte fråga efter personnummer
+
+Om man inte anger personnummer, ska den fråga efter det
+
+# Skapa commit och pusha till Github
+
+1. Öppna terminalen och cd till solution-katalogen
+
+2. Lägg till filen Program.cs till fotobåset
+
+	git add Program.cd
+		eller
+	git add .
+
+3. Ta bilden (snapshot/commit) av ändringarna:
+
+	git commit -m "något meddelande som beskriver ändringar"
