@@ -58,7 +58,7 @@ namespace SocialSecurityNumber
 
             Console.WriteLine("Gender: " + gender + '\n' + "Age: " + age);
 
-            if (generationYear <= 1945)
+            if (generationYear >= 1928 && generationYear <= 1945)
             {
                 string silentGeneration = "Generation: Silent Generation (1928-1945)";
                 Console.WriteLine(silentGeneration);
